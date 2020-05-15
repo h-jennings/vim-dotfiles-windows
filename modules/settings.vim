@@ -51,9 +51,15 @@ if !has("gui_running")
   let &t_SR="\e[3 q"
   let &t_EI="\e[1 q"
   set mouse=a
-	set background=dark
-let g:space_vim_italic = 1
-	colorscheme space_vim_theme
+  set background=dark
+  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+  let g:gruvbox_italic=1
+  let g:gruvbox_bold=1
+  let g:gruvbox_underline=1
+  let g:gruvbox_termcolors=256
+  colorscheme gruvbox
+  "let g:space_vim_italic = 1
+	"colorscheme space_vim_theme
 endif
 
 
