@@ -14,8 +14,10 @@ source $HOME/AppData/Local/nvim/modules/settings.vim
 source $HOME/AppData/Local/nvim/modules/tagbar.vim
 " Airline
 source $HOME/AppData/Local/nvim/modules/airline.vim
-" Airline
+" Startify
 source $HOME/AppData/Local/nvim/modules/start-screen.vim
+" GTFO
+source $HOME/AppData/Local/nvim/modules/vim-gtfo.vim
 
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
