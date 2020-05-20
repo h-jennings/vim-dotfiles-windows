@@ -12,16 +12,11 @@
     "html"
   ],
   "coc.preferences.colorSupport": true,
-  "snippets.ultisnips.directories": [
-    "UltiSnips",
-    "~/.config/nvim/utils/snips"
-  ],
+  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
   "snippets.loadFromExtensions": true,
   "emmet.showExpandedAbbreviation": "always",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "html"
-  },
-  "coc.preferences.jumpCommand": "edit"
+  }
 }
-
