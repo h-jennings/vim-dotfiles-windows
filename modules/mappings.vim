@@ -66,8 +66,6 @@ tnoremap <M-[> <Esc>
 tnoremap <C-v><Esc> <Esc>
 
 "Visual
-vmap ++ <plug>NERDCommenterToggle
-nmap ++ <plug>NERDCommenterToggle
 " Better tabbing
 vnoremap < <gv
 vnoremap > >gv
