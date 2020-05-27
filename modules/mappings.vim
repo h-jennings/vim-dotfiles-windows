@@ -27,14 +27,27 @@ nnoremap K 5k
 " Remapping search to use 'very magic' by default
 nnoremap / /\v
 vnoremap / /\v
+" Tabs
 nnoremap <leader>tt :tabnew<CR>
 nnoremap <leader>] :tabnext<CR>
 nnoremap <leader>[ :tabprev<CR>
 nnoremap <leader>to :tabo<CR>
+
+" Buffers
+" Switch between buffers using <leader>
+nnoremap <leader>o <C-^>
+" Only buffer
+nnoremap <leader>O :on<CR>
+
+" Left and right can switch buffers
+nnoremap <left> :bp<CR>
+nnoremap <right> :bn<CR>
+
 nnoremap <leader>ff :Files<CR>
-nnoremap <leader>fw :Rg<CR>
+nnoremap <leader>fw :Rg<Space>
 nnoremap <C-b> :Buffers<CR>
 nnoremap <C-g> :BCommits<CR>
+nnoremap <silent> <leader>` :Marks<CR>
 nnoremap <leader>/ :nohlsearch<CR>
 " Better window navigation
 nnoremap <C-h> <C-w>h
