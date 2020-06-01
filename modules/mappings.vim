@@ -74,7 +74,8 @@ map <leader>nt :vnew term://bash<CR>
 
 
 " Terminal
-tnoremap <ESC> <C-\><C-n>
+" Uses default <Esc> behavior if fzf
+tnoremap <expr> <Esc> (&filetype == "fzf") ? "<Esc>" : "<c-\><c-n>"
 tnoremap <M-[> <Esc>
 tnoremap <C-v><Esc> <Esc>
 

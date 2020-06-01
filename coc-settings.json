@@ -19,5 +19,6 @@
     "javascript": "javascriptreact",
     "typescript": "html"
   },
-  "yank.highlight.duration": 200
+  "yank.highlight.duration": 300,
+  "pairs.enableCharacters": ["(", "[", "{", "'", "\"", "`"]
 }

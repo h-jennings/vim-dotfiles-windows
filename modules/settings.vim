@@ -39,32 +39,6 @@ set shortmess+=c
 " diagnostics appear/become resolved.
 set signcolumn=yes
 
-
-syntax enable
-
-" Theme
-if !has("gui_running")
-	set termguicolors
-	set t_Co=256
-	"let &t_AB="\e[48;5;%dm"
-	"let &t_AF="\e[38;5;%dm"
-  let &t_ti="\e[1 q"
-  let &t_SI="\e[5 q"
-  let &t_SR="\e[3 q"
-  let &t_EI="\e[1 q"
-  set mouse=a
-  set background=dark
-  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-  let g:gruvbox_italic=1
-  let g:gruvbox_bold=1
-  let g:gruvbox_underline=1
-  let g:gruvbox_termcolors=256
-  colorscheme gruvbox
-  "let g:space_vim_italic = 1
-	"colorscheme space_vim_theme
-endif
-
-
 set colorcolumn=80
 
 
