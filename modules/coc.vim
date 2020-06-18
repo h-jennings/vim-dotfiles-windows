@@ -34,8 +34,8 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 nnoremap <leader>cr :CocRestart<CR>
 
-" Use D to show documentation in preview window.
-nnoremap <silent> D :call <SID>show_documentation()<CR>
+" show documentation in preview window.
+nnoremap <leader>d :call <SID>show_documentation()<CR>
 
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
@@ -113,4 +113,5 @@ let g:coc_global_extensions = [
       \'coc-css',
       \'coc-angular',
       \'coc-pairs',
+      \'coc-marketplace',
       \]
