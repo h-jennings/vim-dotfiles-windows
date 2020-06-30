@@ -13,5 +13,3 @@ if exists('g:GuiLoaded')
   endif
 endif
 
-if exists('g:fvim_loaded')
-endif

@@ -10,6 +10,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'rbong/vim-flog'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-abolish'
+Plug 'tpope/vim-repeat'
 Plug 'chrisbra/Colorizer'
 Plug 'mhinz/vim-startify'
 Plug 'sheerun/vim-polyglot'
@@ -26,6 +28,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'justinmk/vim-gtfo'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'Yggdroot/indentLine'
+Plug 'terryma/vim-expand-region'
+Plug 'dyng/ctrlsf.vim'
 
 " typescript syntax
 Plug 'HerringtonDarkholme/yats.vim'
