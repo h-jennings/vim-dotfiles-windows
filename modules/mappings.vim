@@ -47,8 +47,6 @@ nnoremap <right> :bn<CR>
 
 nnoremap <leader>ff :Files<CR>
 nnoremap <leader>fw :Rg<Space>
-" Asyncronously uses ctrlsf to look for word under cursor
-nmap <leader>A <Plug>CtrlSFCwordPath -W<CR>
 nnoremap <C-b> :Buffers<CR>
 nnoremap <C-g> :BCommits<CR>
 nnoremap <silent> <leader>` :Marks<CR>
