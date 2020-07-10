@@ -28,10 +28,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'justinmk/vim-gtfo'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'Yggdroot/indentLine'
-
-" typescript syntax
-Plug 'HerringtonDarkholme/yats.vim'
 
 " Initialize plugin system
 call plug#end()
