@@ -14,11 +14,6 @@
   "coc.preferences.colorSupport": true,
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
   "snippets.loadFromExtensions": true,
-  "emmet.showExpandedAbbreviation": "always",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "typescript": "html"
-  },
   "yank.highlight.duration": 300,
   "pairs.enableCharacters": ["(", "[", "{", "'", "\"", "`"]
 }
