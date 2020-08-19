@@ -1,7 +1,5 @@
 " Plugins
 source $HOME/AppData/Local/nvim/modules/plugins.vim
-" NerdTree
-source $HOME/AppData/Local/nvim/modules/nerdTree.vim
 " Coc
 source $HOME/AppData/Local/nvim/modules/coc.vim
 " FZF

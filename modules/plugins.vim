@@ -2,7 +2,6 @@
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 
-Plug 'ryanoasis/vim-devicons'
 Plug 'justinmk/vim-dirvish'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
@@ -17,10 +16,10 @@ Plug 'mhinz/vim-startify'
 Plug 'sheerun/vim-polyglot'
 Plug 'AndrewRadev/inline_edit.vim'
 Plug 'alvan/vim-closetag'
-Plug 'morhetz/gruvbox'
 Plug 'sainnhe/gruvbox-material'
 Plug 'sainnhe/forest-night'
 Plug 'sainnhe/edge'
+Plug 'bluz71/vim-nightfly-guicolors'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }

@@ -32,5 +32,8 @@ if !has("gui_running")
   " let g:edge_menu_selection_background = 'blue'
   " let g:airline_theme = 'edge'
   " colorscheme edge
+
+  "Nightfly
+  " colorscheme nightfly
 endif
 

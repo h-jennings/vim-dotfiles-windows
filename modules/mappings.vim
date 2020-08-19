@@ -46,7 +46,8 @@ nnoremap <left> :bp<CR>
 nnoremap <right> :bn<CR>
 
 nnoremap <leader>ff :Files<CR>
-nnoremap <leader>fw :Rg<Space>
+nnoremap <leader>pfw :Rg<Space>
+nnoremap <leader>fw :BLines<Space>
 nnoremap <C-b> :Buffers<CR>
 nnoremap <C-g> :BCommits<CR>
 nnoremap <silent> <leader>` :Marks<CR>
