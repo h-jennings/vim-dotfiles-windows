@@ -24,6 +24,8 @@ source $HOME/AppData/Local/nvim/modules/close-tag.vim
 source $HOME/AppData/Local/nvim/modules/emmet-vim.vim
 " Dirvish
 source $HOME/AppData/Local/nvim/modules/dirvish.vim
+" Word Processing Vim
+source $HOME/AppData/Local/nvim/modules/writing-settings.vim
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 

@@ -8,6 +8,8 @@ set splitright
 set conceallevel=0
 set pumheight=10
 set fileencoding=utf-8
+set nocompatible
+filetype plugin on
 set ruler
 set expandtab
 set incsearch ignorecase smartcase hlsearch
@@ -24,6 +26,8 @@ set hidden
 " Some servers have issues with backup files, see #649.
 set nobackup
 set nowritebackup
+set undodir=~/.vim/undodir
+set undofile
 " Give more space for displaying messages.
 set cmdheight=2
 " delays and poor user experience.

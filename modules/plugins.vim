@@ -27,6 +27,11 @@ Plug 'junegunn/fzf.vim'
 Plug 'justinmk/vim-gtfo'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mattn/emmet-vim'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+Plug 'reedes/vim-pencil'
+Plug 'reedes/vim-wordy'
+Plug 'mbbill/undotree'
 
 " Initialize plugin system
 call plug#end()

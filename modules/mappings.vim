@@ -35,6 +35,9 @@ nnoremap <leader>] :tabnext<CR>
 nnoremap <leader>[ :tabprev<CR>
 nnoremap <leader>to :tabo<CR>
 
+" Toggle relative line numbers
+nnoremap <leader>rn :set rnu!<cr>
+
 " Buffers
 " Switch between buffers using <leader>
 nnoremap <leader>o <C-^>
@@ -47,11 +50,12 @@ nnoremap <right> :bn<CR>
 
 nnoremap <leader>ff :Files<CR>
 nnoremap <leader>pfw :Rg<Space>
-nnoremap <leader>fw :BLines<Space>
+nnoremap <leader>fw :BLines<CR>
 nnoremap <C-b> :Buffers<CR>
 nnoremap <C-g> :BCommits<CR>
 nnoremap <silent> <leader>` :Marks<CR>
 nnoremap <leader>/ :nohlsearch<CR>
+nnoremap <leader>u :UndotreeShow<CR>
 " Better window navigation
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
